@@ -1,0 +1,89 @@
+.headerStyle {
+}
+
+.calendarStyle {
+    font-weight: lighter;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dateNav {
+    background: white;
+    color: #333;
+    border-radius: 12px;
+    margin: 20px 10px;
+}
+
+time {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.weekStyle {
+    display: flex;
+    font-weight: bolder;
+
+}
+
+.weekStyle > li {
+    width: 14.2857%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dayStyle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dayStyle > li {
+    width: 14.2857%;
+    height: 40px;
+    text-align: center;
+    line-height: 42px;
+}
+.dayStyle-today{
+    background: #fed32c;
+}
+.dayStyle-selected{
+    outline: 1px solid #fed32c;
+}
+.gray-dayStyle{
+    color: #999;
+}
+.choose {
+    display: flex;
+    font-size: 10px;
+}
+
+.today {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 25px;
+    padding: 0 12px;
+    border: none;
+
+}
+
+.lastMonth {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    border-radius: 25px;
+    padding: 0 12px;
+    border: none;
+}
+
+.nextMonth {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 0 12px;
+    border: none;
+
+}
